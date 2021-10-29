@@ -48,3 +48,27 @@ The rating profile of each user is seen as a sample extracted from a mixture mod
 - **test_complete.txt** a test dataset with MIT implementation
 
 - **test_solutions.txt** a test dataset with MIT implementation
+
+## Result
+
+### In the case K=1, the mixture parameters and point assignments are the same for both methods
+
+<img src="./picture/k1em.png" width="300">
+<img src="./picture/k1kmean.png" width="300">
+
+### In the case K=2, both methods have simililar parameters and point assignments
+
+<img src="./picture/k2em.png" width="300">
+<img src="./picture/k2kmean.png" width="300">
+
+### In the case K=3, the k-means solution accounts for point density better than EM
+
+<img src="./picture/k3em.png" width="300">
+<img src="./picture/k3kmean.png" width="300">
+
+### In the case K=4, the k-means solution equally spaces the clusters to minimize distortion cost
+
+<img src="./picture/k4em.png" width="300">
+<img src="./picture/k4kmean.png" width="300">
+
+
